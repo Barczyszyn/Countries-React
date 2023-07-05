@@ -1,0 +1,49 @@
+* {
+    font-family: Tahoma, sans-serif;
+    font-size: 1.2rem;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image-container button {
+    border: none;
+    box-shadow: 0 4px 8px #0000001a;
+        padding: 0.5em 1.2rem;
+        margin-bottom: 1rem;
+        font-size: 1.1rem;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.25s;
+        width: 12rem;
+}
+
+.image-container button:hover {
+    box-shadow: 0 4px 8px #03fce3;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.image {
+    width: 20rem;
+    height: 10rem;
+    margin-top: 1.5rem;
+}
